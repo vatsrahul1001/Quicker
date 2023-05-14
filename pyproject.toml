@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "quicker"
+version = "0.1.0"
+description = "This projects is for automation of UI web pages"
+authors = ["Rahul Vats"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.9.0"
+webdriver-manager = "^3.8.6"
+pytest = "^7.3.1"
+robot = "^20071211"
+pillow = "^9.5.0"
+pytest-html-reporter = "^0.2.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
